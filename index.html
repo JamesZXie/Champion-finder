@@ -19,7 +19,7 @@
           The most interesting part of the problem proposed, however, is not the results of a successful tool but perhaps on how it is trained. Looking into what attributes are effective in predicting the best champion success brings to light a bunch of interesting facts about the community. For example, the percentage of accuracy of running nearest neighbor on our dataset peaks at around gold elo and gets skewed as we progress above the bracket. This seems to makes sense because less skilled players tend to have a smaller champion pool to select from due to them only looking to play powerful champions, which would naturally raise the accuracy of any ML algorithm for lower elo players. As we test other methodologies on the same datasets, we eventually saw that that hypothesis was correct. Moreover, as we shaved down our attributes from over 40 to just under 15, we found that the most impactful attribute was not winrate or role played, but actually champion mastery! This means that although the community seems to be extremely obsessed with winning, enjoying playing a champion is ultimately more important to most players than winning a game. As seen in the diagram below, our accuracy peaks around the gold elo, where players follow the meta most successfully.
         </p>
         <div id="img-container">
-          <img id="diagram" src="./LolChampion.png"/>
+          <img id="diagram" src="./lol.png"/>
           <p style="font-style: italic; margin-bottom: 5%">
             Accuracy by elo, showing the impact of meta on champion analysis
           </p>
