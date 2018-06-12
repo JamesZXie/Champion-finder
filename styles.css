@@ -1,0 +1,20 @@
+#text-wrap{
+  display: inline-block;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  background: linear-gradient(black, black, white);
+  border-radius: 30px;
+}
+
+#text-pad{
+  font-family: 'Noto Sans', sans-serif;
+  background-color: white;
+  max-width: 80%;
+  padding: 5%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  box-shadow:
+}
