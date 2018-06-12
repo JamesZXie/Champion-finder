@@ -3,8 +3,8 @@
   width: 80%;
   margin-left: 10%;
   margin-top: 5%;
-  background: linear-gradient(black, black, white);
-  border-radius: 30px;
+  background-color: black;
+  border-radius: 10px;
 }
 
 #text-pad{
