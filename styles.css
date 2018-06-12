@@ -18,3 +18,16 @@
   border-radius: 10px;
   box-shadow:
 }
+
+#diagram{
+  display: inline-block;
+  max-width: 80%;
+  max-height: 90%;
+  vertical-align: middle;
+}
+
+#img-container{
+  text-align: center;
+  font-size: 10px;
+  margin-top: 5%;
+}
